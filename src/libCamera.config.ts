@@ -12,6 +12,9 @@ export const commonCommands: Commands = {
     'hflip', // Read out with horizontal mirror
     'vflip', // Read out with vertical flip
     'flush', // Flush output files immediately
+    'autofocus-on-capture', // Whether to run an autofocus cycle before capture
+    'hdr', // Run the camera in HDR mode (supported cameras only)
+    
   ],
   Options: [
     'camera', // Selects which camera to use <index>
@@ -45,6 +48,11 @@ export const commonCommands: Commands = {
     'tuning-file', //	Specify the camera tuning to use <string>"
     'output', // Output file name <string>
     'wrap', // Wrap output file counter at <number>
+    'autofocus-mode', // Specify the autofocus mode <string>
+    'autofocus-range', // Specify the autofocus range <string>
+    'autofocus-speed', // Specify the autofocus speed <string>
+    'autofocus-window', // Specify the autofocus window
+    'lens-position', // Set the lens to a given position <string
   ],
 };
 
